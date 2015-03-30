@@ -1,7 +1,7 @@
 var rotation_index = 0;
 var visible_index = 0;
 var stop_rotating = false;
-var interval_timeout = 6000;
+var interval_timeout = 9001; // IT'S OVER 9000
 
 document.getElementById("carousel").addEventListener("mouseenter", function() {
     stop_rotating = true;
